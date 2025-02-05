@@ -28,8 +28,8 @@ class WordleGame extends Component {
     message: '',
   }
 
-  handleInputChange = error => {
-    const value = error.target.value.toLowerCase()
+  handleInputChange = event => {
+    const value = event.target.value.toLowerCase()
     if (value.length <= 5) {
       this.setState({currentGuess: value})
     }
