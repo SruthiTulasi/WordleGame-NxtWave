@@ -5,7 +5,7 @@ const fiveLetterWords = [
   'react',
   'paper',
   'books',
-  'pens',
+  'ponds',
   'apple',
   'about',
   'above',
