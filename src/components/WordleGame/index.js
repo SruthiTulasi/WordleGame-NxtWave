@@ -16,7 +16,7 @@ const fiveLetterWords = [
   'aware',
 ]
 const targetWord =
-  fiveLetterWords[Math.ceil(Math.random() * fiveLetterWords.length)]-1
+  fiveLetterWords[Math.ceil(Math.random() * fiveLetterWords.length)]
 console.log(targetWord)
 class WordleGame extends Component {
   state = {
